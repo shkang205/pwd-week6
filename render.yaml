@@ -1,0 +1,10 @@
+# Render Blueprint: Render → New → Blueprint → 이 저장소 선택 시 아래 설정으로 Web Service 생성
+services:
+  - type: web
+    name: pwd-week6
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    autoDeploy: true

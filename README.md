@@ -51,6 +51,8 @@ npm test        # 테스트
 
 ## Render 배포
 
+> 간단한 방법: Render → **New → Blueprint** → `pwd-week6` 저장소 선택 → Apply (`render.yaml` 설정 사용)
+
 1. GitHub에 `pwd-week6` 저장소를 만들고 push
 2. Render → **New → Web Service** → GitHub 저장소 연결
 3. 설정
@@ -64,9 +66,11 @@ npm test        # 테스트
 > 무료 인스턴스는 15분간 요청이 없으면 잠들어, 첫 요청이 30초 이상 걸릴 수 있습니다.
 > 데이터는 메모리에 저장되므로 재시작 시 초기 데이터로 돌아갑니다.
 
-## React(pwd-week3/5) 연동
+## React(pwd-week5) 연동
 
-React 앱에서 로컬 데이터 대신 Render API를 호출합니다.
+[pwd-week5](https://github.com/shkang205/pwd-week5)의 `src/services/api.ts`가 localStorage 대신 이 API를 호출합니다.
+서버 주소는 pwd-week5의 `.env.production`(`https://pwd-week6.onrender.com`)과 `.env.development`(`http://localhost:3000`)에 있습니다.
+아래는 기본 예시입니다.
 
 ```js
 // .env (Vite 기준)  →  Vercel 환경변수에도 동일하게 등록
