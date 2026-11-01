@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "송림식당",
+    "category": "한식",
+    "location": "경기 수원시 영통구 월드컵로193번길 21",
+    "priceRange": "7,000-10,000원",
+    "rating": 4.5,
+    "description": "아주대생들의 오랜 단골집. 푸짐한 양과 저렴한 가격의 백반이 인기.",
+    "recommendedMenu": ["순두부찌개", "김치찌개", "제육볶음"],
+    "likes": 120,
+    "image": "https://images.unsplash.com/photo-1498654896293-37aacf113fd9?w=400"
+  },
+  {
+    "id": 2,
+    "name": "별미떡볶이",
+    "category": "분식",
+    "location": "경기 수원시 영통구 아주로 42",
+    "priceRange": "3,000-8,000원",
+    "rating": 4.2,
+    "description": "매콤달콤한 떡볶이와 튀김 세트가 유명한 분식집.",
+    "recommendedMenu": ["떡볶이", "튀김", "순대"],
+    "likes": 85,
+    "image": "https://images.unsplash.com/photo-1635363638580-c2809d049eee?w=400"
+  },
+  {
+    "id": 3,
+    "name": "Matamata",
+    "category": "카페",
+    "location": "경기 수원시 영통구 월드컵로 193",
+    "priceRange": "4,000-7,000원",
+    "rating": 4.3,
+    "description": "공부하기 좋은 넓은 좌석과 맛있는 디저트가 있는 카페.",
+    "recommendedMenu": ["아메리카노", "크로플", "바닐라라떼"],
+    "likes": 64,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=400"
+  },
+  {
+    "id": 4,
+    "name": "홍콩반점",
+    "category": "중식",
+    "location": "경기 수원시 영통구 아주로 31",
+    "priceRange": "6,000-12,000원",
+    "rating": 4.0,
+    "description": "빠르게 한 끼 해결하기 좋은 짜장면·짬뽕 전문점.",
+    "recommendedMenu": ["짬뽕", "짜장면", "탕수육"],
+    "likes": 70,
+    "image": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=400"
+  },
+  {
+    "id": 5,
+    "name": "아주스시",
+    "category": "일식",
+    "location": "경기 수원시 영통구 월드컵로 206",
+    "priceRange": "10,000-18,000원",
+    "rating": 4.4,
+    "description": "합리적인 가격의 초밥 세트와 회덮밥이 인기인 일식집.",
+    "recommendedMenu": ["모둠초밥", "연어덮밥", "우동"],
+    "likes": 92,
+    "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=400"
+  },
+  {
+    "id": 6,
+    "name": "버거스토리",
+    "category": "양식",
+    "location": "경기 수원시 영통구 아주로 47",
+    "priceRange": "8,000-13,000원",
+    "rating": 4.1,
+    "description": "수제 패티로 만든 두툼한 버거와 감자튀김.",
+    "recommendedMenu": ["치즈버거", "베이컨버거", "어니언링"],
+    "likes": 58,
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400"
+  }
+]
