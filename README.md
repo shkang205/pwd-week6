@@ -69,7 +69,7 @@ npm test        # 테스트
 ## React(pwd-week5) 연동
 
 [pwd-week5](https://github.com/shkang205/pwd-week5)의 `src/services/api.ts`가 localStorage 대신 이 API를 호출합니다.
-서버 주소는 pwd-week5의 `.env.production`(`https://pwd-week6.onrender.com`)과 `.env.development`(`http://localhost:3000`)에 있습니다.
+서버 주소는 pwd-week5의 `.env.production`(`https://pwd-week6-6wpk.onrender.com`)과 `.env.development`(`http://localhost:3000`)에 있습니다.
 아래는 기본 예시입니다.
 
 ```js
